@@ -4,11 +4,13 @@ Results from a model of global SARS-CoV-2 lineage competition
 
 ## Advantage Estimates
 
+<img src="plots/top_lineages_MCMC_lineage_growths_relative_to_BA.5.2.1.svg" style="width: 2800px;">
+
+<img src="plots/N_MCMC_mutations.svg" style="width: 2800px;">
+
 <img src="plots/N_MCMC_lineage_growths.svg" style="width: 2800px;">
 
 <img src="plots/MCMC_lineage_growths_relative_to_BA.5.2.1.svg" style="width: 2800px;">
-
-<img src="plots/N_MCMC_mutations.svg" style="width: 2800px;">
 
 <img src="plots/tree.svg" style="width: 2800px;">
 
