@@ -10,6 +10,8 @@ Results from a model of global SARS-CoV-2 lineage competition
 
 <img src="plots/N_MCMC_mutations.svg" style="width: 2800px;">
 
+<img src="plots/tree.svg" style="width: 2800px;">
+
 ## Variant trajectories
 
 ### Germany
