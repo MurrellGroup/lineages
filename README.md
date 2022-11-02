@@ -1,4 +1,4 @@
-# SARS-CoV-2 Lineage Competition (2022-10-24)
+# SARS-CoV-2 Lineage Competition (2022-10-31)
 
 Results from a model of global SARS-CoV-2 lineage competition
 
@@ -22,25 +22,17 @@ Inferred growth advantage mapped upon the Nextclade-curated phylogeny:
 
 For countries with more than 2500 genomes deposited in the last 50 days, we plot the model trajectory estimates and forecasts. Forecasts for variants where the sampled genomes fall off prior to variant emergence are driven by global pooled estimates and should be treated with caution.
 
-Bayesian 95% Credible Intervals are shown for: BF.7, BQ.1, BQ.1.1, XBB.3, XBB.1
+Bayesian 95% Credible Intervals are shown for: BF.7, BQ.1, BQ.1.1, XBB.3, XBB.1, BQ.1.18
 
 Variants are colored (from blue to red) in order of the number (low to high) of convergent mutations they exhibit (ie. those in mutation plot above).
 
-### Israel
+### Luxembourg
 
-<img src="plots/sequence_volume_Israel.svg" style="width: 2800px;">
+<img src="plots/sequence_volume_Luxembourg.svg" style="width: 2800px;">
 
-<img src="plots/muller_trajectories_country_Israel.svg" style="width: 2800px;">
+<img src="plots/muller_trajectories_country_Luxembourg.svg" style="width: 2800px;">
 
-<img src="plots/variant_trajectories_Israel.svg" style="width: 2800px;">
-
-### Italy
-
-<img src="plots/sequence_volume_Italy.svg" style="width: 2800px;">
-
-<img src="plots/muller_trajectories_country_Italy.svg" style="width: 2800px;">
-
-<img src="plots/variant_trajectories_Italy.svg" style="width: 2800px;">
+<img src="plots/variant_trajectories_Luxembourg.svg" style="width: 2800px;">
 
 ### Sweden
 
@@ -50,6 +42,22 @@ Variants are colored (from blue to red) in order of the number (low to high) of 
 
 <img src="plots/variant_trajectories_Sweden.svg" style="width: 2800px;">
 
+### Italy
+
+<img src="plots/sequence_volume_Italy.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Italy.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Italy.svg" style="width: 2800px;">
+
+### Israel
+
+<img src="plots/sequence_volume_Israel.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Israel.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Israel.svg" style="width: 2800px;">
+
 ### Belgium
 
 <img src="plots/sequence_volume_Belgium.svg" style="width: 2800px;">
@@ -58,14 +66,6 @@ Variants are colored (from blue to red) in order of the number (low to high) of 
 
 <img src="plots/variant_trajectories_Belgium.svg" style="width: 2800px;">
 
-### Australia
-
-<img src="plots/sequence_volume_Australia.svg" style="width: 2800px;">
-
-<img src="plots/muller_trajectories_country_Australia.svg" style="width: 2800px;">
-
-<img src="plots/variant_trajectories_Australia.svg" style="width: 2800px;">
-
 ### Japan
 
 <img src="plots/sequence_volume_Japan.svg" style="width: 2800px;">
@@ -73,6 +73,14 @@ Variants are colored (from blue to red) in order of the number (low to high) of 
 <img src="plots/muller_trajectories_country_Japan.svg" style="width: 2800px;">
 
 <img src="plots/variant_trajectories_Japan.svg" style="width: 2800px;">
+
+### Australia
+
+<img src="plots/sequence_volume_Australia.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Australia.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Australia.svg" style="width: 2800px;">
 
 ### France
 
@@ -90,6 +98,14 @@ Variants are colored (from blue to red) in order of the number (low to high) of 
 
 <img src="plots/variant_trajectories_Canada.svg" style="width: 2800px;">
 
+### Denmark
+
+<img src="plots/sequence_volume_Denmark.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Denmark.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Denmark.svg" style="width: 2800px;">
+
 ### England
 
 <img src="plots/sequence_volume_England.svg" style="width: 2800px;">
@@ -106,14 +122,6 @@ Variants are colored (from blue to red) in order of the number (low to high) of 
 
 <img src="plots/variant_trajectories_Germany.svg" style="width: 2800px;">
 
-### Denmark
-
-<img src="plots/sequence_volume_Denmark.svg" style="width: 2800px;">
-
-<img src="plots/muller_trajectories_country_Denmark.svg" style="width: 2800px;">
-
-<img src="plots/variant_trajectories_Denmark.svg" style="width: 2800px;">
-
 ### USA
 
 <img src="plots/sequence_volume_USA.svg" style="width: 2800px;">
@@ -122,11 +130,11 @@ Variants are colored (from blue to red) in order of the number (low to high) of 
 
 <img src="plots/variant_trajectories_USA.svg" style="width: 2800px;">
 
-SARS-CoV-2 sequence data from GISAID EpiCov (bulk .fasta download, 2022-10-24). We gratefully acknowledge all data contributors, i.e. the Authors and their Originating Laboratories responsible for obtaining the specimens, and their Submitting Laboratories that generated the genetic sequence and metadata and shared via the GISAID Initiative the data on which part of this research is based. Lineage assignments were made by Nextclade.
+SARS-CoV-2 sequence data from GISAID EpiCov (bulk .fasta download, 2022-10-31). We gratefully acknowledge all data contributors, i.e. the Authors and their Originating Laboratories responsible for obtaining the specimens, and their Submitting Laboratories that generated the genetic sequence and metadata and shared via the GISAID Initiative the data on which part of this research is based. Lineage assignments were made by Nextclade.
 
-Countries included in the model: Brunei, Croatia, Chile, Turkey, Estonia, Russia, Iceland, Slovakia, Wales, Portugal, Indonesia, Ireland, Spain, Scotland, Poland, Switzerland, Slovenia, Israel, Luxembourg, Italy, Sweden, Belgium, Australia, Japan, France, Canada, England, Germany, Denmark, USA
+Countries included in the model: Russia, Brunei, Slovakia, Norway, Iceland, India, Chile, Ireland, Indonesia, Portugal, Wales, Poland, Slovenia, Spain, Scotland, Switzerland, Luxembourg, Sweden, Italy, Israel, Belgium, Japan, Australia, France, Canada, Denmark, England, Germany, USA
 
-SARS-CoV-2 lineages included in the model: BA.2, BA.2.10, BA.2.12.1, BA.2.12.2, BA.2.13, BA.2.13.1, BA.2.18, BA.2.24, BA.2.29, BA.2.3, BA.2.3.1, BA.2.3.13, BA.2.3.20, BA.2.36, BA.2.38, BA.2.42, BA.2.56, BA.2.65, BA.2.74, BA.2.75, BA.2.75.1, BA.2.75.2, BA.2.75.3, BA.2.75.4, BA.2.75.5, BA.2.76, BA.2.9, BA.4, BA.4.1, BA.4.1.1, BA.4.1.10, BA.4.1.3, BA.4.1.4, BA.4.1.5, BA.4.1.6, BA.4.1.8, BA.4.1.9, BA.4.2, BA.4.3, BA.4.4, BA.4.5, BA.4.6, BA.4.6.1, BA.4.6.2, BA.4.6.4, BA.4.7, BA.5, BA.5.1, BA.5.1.1, BA.5.1.10, BA.5.1.11, BA.5.1.12, BA.5.1.15, BA.5.1.16, BA.5.1.17, BA.5.1.18, BA.5.1.19, BA.5.1.2, BA.5.1.20, BA.5.1.21, BA.5.1.22, BA.5.1.23, BA.5.1.24, BA.5.1.25, BA.5.1.26, BA.5.1.27, BA.5.1.28, BA.5.1.3, BA.5.1.4, BA.5.1.5, BA.5.1.6, BA.5.1.7, BA.5.1.8, BA.5.1.9, BA.5.10.1, BA.5.2, BA.5.2.1, BA.5.2.12, BA.5.2.13, BA.5.2.14, BA.5.2.16, BA.5.2.18, BA.5.2.19, BA.5.2.2, BA.5.2.20, BA.5.2.21, BA.5.2.22, BA.5.2.23, BA.5.2.24, BA.5.2.25, BA.5.2.26, BA.5.2.27, BA.5.2.28, BA.5.2.29, BA.5.2.3, BA.5.2.30, BA.5.2.31, BA.5.2.33, BA.5.2.34, BA.5.2.35, BA.5.2.36, BA.5.2.37, BA.5.2.4, BA.5.2.5, BA.5.2.6, BA.5.2.7, BA.5.2.8, BA.5.2.9, BA.5.3, BA.5.3.1, BA.5.3.2, BA.5.3.3, BA.5.3.4, BA.5.5, BA.5.5.1, BA.5.5.2, BA.5.5.3, BA.5.6, BA.5.6.1, BA.5.6.2, BA.5.6.3, BA.5.7, BA.5.8, BA.5.9, BE.1, BE.1.1, BE.1.1.1, BE.1.1.2, BE.1.2, BE.1.2.1, BE.1.3, BE.1.4, BE.1.4.1, BE.1.4.2, BE.2, BE.3, BE.4, BE.4.1, BE.5, BF.1, BF.10, BF.11, BF.11.1, BF.11.3, BF.11.4, BF.11.5, BF.12, BF.13, BF.14, BF.15, BF.16, BF.17, BF.18, BF.19, BF.2, BF.21, BF.22, BF.23, BF.24, BF.25, BF.26, BF.27, BF.28, BF.29, BF.3, BF.3.1, BF.4, BF.5, BF.6, BF.7, BF.7.1, BF.7.2, BF.7.4, BF.7.5, BF.7.6, BF.7.7, BF.7.8, BF.8, BF.9, BG.2, BG.5, BH.1, BK.1, BL.1, BL.2, BL.3, BM.1.1, BM.1.1.3, BM.4.1.1, BN.1, BN.1.3, BN.5, BN.6, BQ.1, BQ.1.1, BQ.1.1.1, BQ.1.10, BQ.1.10.1, BQ.1.11, BQ.1.12, BQ.1.13, BQ.1.14, BQ.1.16, BQ.1.2, BQ.1.3, BQ.1.5, BQ.1.6, BQ.1.8, BR.1, BT.1, BT.2, BU.1, BU.2, BV.1, BV.2, BY.1, BZ.1, CA.1, CA.3, CB.1, CC.1, CD.2, CE.1, CF.1, CG.1, CK.1, CM.2, CN.1, CR.1, XAN, XAS, XAZ, XBB.1, XBB.2, XBB.3
+SARS-CoV-2 lineages included in the model: BA.2, BA.2.10, BA.2.12.1, BA.2.13, BA.2.13.1, BA.2.18, BA.2.24, BA.2.29, BA.2.3, BA.2.3.1, BA.2.3.20, BA.2.38, BA.2.38.1, BA.2.38.2, BA.2.56, BA.2.74, BA.2.75, BA.2.75.1, BA.2.75.10, BA.2.75.2, BA.2.75.3, BA.2.75.4, BA.2.75.5, BA.2.75.6, BA.2.75.7, BA.2.76, BA.2.9, BA.4, BA.4.1, BA.4.1.1, BA.4.1.10, BA.4.1.3, BA.4.1.4, BA.4.1.5, BA.4.1.6, BA.4.1.8, BA.4.1.9, BA.4.2, BA.4.3, BA.4.4, BA.4.5, BA.4.6, BA.4.6.1, BA.4.6.2, BA.4.6.4, BA.4.7, BA.5, BA.5.1, BA.5.1.1, BA.5.1.10, BA.5.1.11, BA.5.1.12, BA.5.1.15, BA.5.1.16, BA.5.1.17, BA.5.1.18, BA.5.1.19, BA.5.1.2, BA.5.1.20, BA.5.1.21, BA.5.1.22, BA.5.1.23, BA.5.1.24, BA.5.1.25, BA.5.1.26, BA.5.1.27, BA.5.1.28, BA.5.1.3, BA.5.1.4, BA.5.1.5, BA.5.1.6, BA.5.1.7, BA.5.1.8, BA.5.1.9, BA.5.10.1, BA.5.2, BA.5.2.1, BA.5.2.12, BA.5.2.13, BA.5.2.14, BA.5.2.16, BA.5.2.18, BA.5.2.19, BA.5.2.2, BA.5.2.20, BA.5.2.21, BA.5.2.22, BA.5.2.23, BA.5.2.24, BA.5.2.25, BA.5.2.26, BA.5.2.27, BA.5.2.28, BA.5.2.29, BA.5.2.3, BA.5.2.30, BA.5.2.31, BA.5.2.32, BA.5.2.33, BA.5.2.34, BA.5.2.35, BA.5.2.36, BA.5.2.37, BA.5.2.4, BA.5.2.6, BA.5.2.7, BA.5.2.8, BA.5.2.9, BA.5.3, BA.5.3.1, BA.5.3.2, BA.5.3.3, BA.5.3.4, BA.5.5, BA.5.5.1, BA.5.5.2, BA.5.5.3, BA.5.6, BA.5.6.1, BA.5.6.2, BA.5.6.3, BA.5.6.4, BA.5.7, BA.5.8, BA.5.9, BE.1, BE.1.1, BE.1.1.1, BE.1.1.2, BE.1.2, BE.1.2.1, BE.1.3, BE.1.4, BE.1.4.1, BE.1.4.2, BE.2, BE.3, BE.4, BE.4.1, BE.4.1.1, BE.5, BF.1, BF.10, BF.11, BF.11.1, BF.11.3, BF.11.4, BF.11.5, BF.12, BF.13, BF.14, BF.15, BF.16, BF.17, BF.18, BF.19, BF.2, BF.21, BF.22, BF.23, BF.24, BF.25, BF.26, BF.27, BF.28, BF.29, BF.3, BF.3.1, BF.4, BF.5, BF.6, BF.7, BF.7.1, BF.7.10, BF.7.2, BF.7.3, BF.7.4, BF.7.5, BF.7.6, BF.7.7, BF.7.8, BF.8, BF.9, BG.2, BG.5, BH.1, BJ.1, BK.1, BL.1, BL.2, BL.3, BL.4, BM.1, BM.1.1, BM.1.1.1, BM.1.1.3, BM.4.1.1, BN.1, BN.1.2, BN.1.3, BN.2, BN.5, BN.6, BQ.1, BQ.1.1, BQ.1.1.1, BQ.1.10, BQ.1.10.1, BQ.1.11, BQ.1.12, BQ.1.13, BQ.1.14, BQ.1.15, BQ.1.16, BQ.1.18, BQ.1.2, BQ.1.3, BQ.1.5, BQ.1.6, BQ.1.8, BQ.1.8.2, BR.1, BR.2, BT.1, BT.2, BU.1, BU.2, BV.1, BV.2, BY.1, BZ.1, CA.1, CA.3, CB.1, CC.1, CD.2, CE.1, CF.1, CG.1, CK.1, CL.1, CM.2, CN.1, CQ.1, CR.1, XAN, XAS, XAZ, XBB, XBB.1, XBB.2, XBB.3, XBD
 
 ## HMC Diagnostics
 
