@@ -20,11 +20,27 @@ Inferred growth advantage mapped upon the Nextclade-curated phylogeny:
 
 ## Variant trajectories
 
-For countries with more than 2500 genomes deposited in the last 50 days, we plot the model trajectory estimates and forecasts. Forecasts for variants where the sampled genomes fall off prior to variant emergence are driven by global pooled estimates and should be treated with caution.
+For countries with more than 2000 genomes deposited in the last 50 days, we plot the model trajectory estimates and forecasts. Forecasts for variants where the sampled genomes fall off prior to variant emergence are driven by global pooled estimates and should be treated with caution.
 
 Bayesian 95% Credible Intervals are shown for: BF.7, BQ.1, BQ.1.1, XBB.3, XBB.1, XBB.1.1, BQ.1.18, BQ.1.1.8, CK.2.1.1, BR.2, BN.1.2
 
 Variants are colored (from blue to red) in order of the number (low to high) of convergent mutations they exhibit (ie. those in mutation plot above).
+
+### Italy
+
+<img src="plots/sequence_volume_Italy.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Italy.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Italy.svg" style="width: 2800px;">
+
+### Switzerland
+
+<img src="plots/sequence_volume_Switzerland.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Switzerland.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Switzerland.svg" style="width: 2800px;">
 
 ### Belgium
 
@@ -33,6 +49,14 @@ Variants are colored (from blue to red) in order of the number (low to high) of 
 <img src="plots/muller_trajectories_country_Belgium.svg" style="width: 2800px;">
 
 <img src="plots/variant_trajectories_Belgium.svg" style="width: 2800px;">
+
+### Sweden
+
+<img src="plots/sequence_volume_Sweden.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Sweden.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Sweden.svg" style="width: 2800px;">
 
 ### Israel
 
