@@ -24,6 +24,14 @@ Bayesian 95% Credible Intervals are shown for: BQ.1.1, CH.1.1, CH.1.1.1, EG.1, F
 
 Variants are colored (from blue to red) in order of the number (low to high) of convergent mutations they exhibit (ie. those in mutation plot above).
 
+### Model Average
+
+Averaging out the country-specific growth rate and intercept adjustments:
+
+<img src="plots/variant_trajectories_model_avg.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_model_avg.svg" style="width: 2800px;">
+
 ### Germany
 
 <img src="plots/sequence_volume_Germany.svg" style="width: 2800px;">
