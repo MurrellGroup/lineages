@@ -6,11 +6,11 @@ Estimates of multiplicative growth advantage (per week) for lineages are provide
 
 ## Advantage Estimates
 
-<img src="plots/sequence_volume_India.svg" style="width: 2800px;">
+<img src="plots/top_124_lineages_MCMC_lineage_growths_relative_to_XBB.1.5.svg" style="width: 2800px;">
 
-<img src="plots/variant_trajectories_Germany.svg" style="width: 2800px;">
+<img src="plots/top_60_lineages_MCMC_lineage_growths_relative_to_XBB.1.5.svg" style="width: 2800px;">
 
-<img src="plots/sequence_volume_Germany.svg" style="width: 2800px;">
+<img src="plots/N_MCMC_mutations.svg" style="width: 2800px;">
 
 Inferred growth advantage mapped upon the Nextclade-curated phylogeny:
 
