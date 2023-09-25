@@ -12,9 +12,9 @@ Estimates of multiplicative growth advantage (per week) for lineages are provide
 
 <img src="plots/N_MCMC_mutations.svg" style="width: 2800px;">
 
-Inferred growth advantage mapped upon the Nextclade-curated phylogeny:
+Inferred growth advantage mapped upon the Nextclade-curated phylogeny (pruned to keep only relatively competative variants):
 
-<img src="plots/tree.svg" style="width: 2800px;">
+<img src="plots/tree_pruned.svg" style="width: 2800px;">
 
 ## Variant trajectories
 
@@ -166,6 +166,10 @@ We show Effective Sample Size (ESS) and plot chains for the global lineage advan
 
 <img src="plots/Chain_props_England_time100.png" style="width: 2800px;">
 
+Inferred growth advantage mapped upon the Nextclade-curated phylogeny (full tree):
+
+<img src="plots/tree.svg" style="width: 2800px;">
+
 ## Methods summary
 
 Lineage competition is modelled using a Bayesian multinomial regression approach. Briefly the global GISAID SARS-CoV-2 dataset (downloaded as a bulk .fasta file) is filtered for any sequences with collection dates within the previous 100 days. NextClade (with the BA.2 reference set, “sars-cov-2-21L”) is used for lineage assignment, and assignments are compiled into counts per country per lineage per day. If a sub-lineage is too infrequent to be included in the model, its count is added into its most recent included ancestor.
@@ -175,3 +179,5 @@ We model growth rates using a hierarchical approach. The growth rate for a linea
 Introduction times are controlled by lineage-specific intercept terms, which have a global shared term per lineage, and country-specific random effects. Each "kind" of parameter has a Gaussian prior, centred on zero, and we use a Gaussian hyperprior over the log of the standard deviations of these priors. Posterior distributions for all parameters are sampled, via Hamiltonian Monte Carlo with the "No-U-Turn sampler" by AdvancedHMC.jl in Julia.
 
 The "Model average" frequency plot intends to provide a "global" image of variant competition, and is produced using the posterior mean (over all post-burnin HMC samples) over all frequency trajectories but with the country-specific terms (including the country-specific growth rate random effects and the country-specific intercepts) set to their averages, no longer reflecting the details of any specific country, but also not being too strongly biased by unevenly distributed sequencing volumes for any specific country.
+
+
