@@ -1,4 +1,4 @@
-# SARS-CoV-2 Lineage Competition (2024-04-27)
+# SARS-CoV-2 Lineage Competition (2024-05-02)
 
 Results from a model of global SARS-CoV-2 lineage competition
 
@@ -20,7 +20,7 @@ Inferred growth advantage mapped upon the Nextclade-curated phylogeny (pruned to
 
 For countries with more than 200 genomes deposited in the last 50 days, we plot the model trajectory estimates and forecasts. Forecasts for variants where the sampled genomes fall off prior to variant emergence are driven by global pooled estimates and should be treated with caution.
 
-Bayesian 95% Credible Intervals are shown for: BA.2.86.1, HK.3, HK.3.2, HV.1, JG.3.2, JN.1, JN.1.1, JN.1.11.1, JN.1.13.1, JN.1.16, JN.1.18, JN.1.19, JN.1.2, JN.1.22, JN.1.31, JN.1.32, JN.1.39, JN.1.4, JN.1.4.2, JN.1.4.5, JN.1.4.6, JN.1.4.7, JN.1.42, JN.1.43, JN.1.46, JN.1.5, JN.1.6, JN.1.7, JN.1.7.2, JN.1.8, JN.1.8.1, JN.1.9, JN.2.5, KP.2, KP.3, KQ.1, KV.2, XDD, XDK, XDP, XDQ.1
+Bayesian 95% Credible Intervals are shown for: BA.2.86.1, HK.3, HK.3.2, HV.1, JG.3.2, JN.1, JN.1.1, JN.1.11.1, JN.1.13.1, JN.1.16, JN.1.16.1, JN.1.18, JN.1.19, JN.1.2, JN.1.22, JN.1.31, JN.1.32, JN.1.39, JN.1.4, JN.1.4.2, JN.1.4.5, JN.1.4.6, JN.1.42, JN.1.5, JN.1.7, JN.1.7.2, JN.1.8, JN.1.8.1, JN.1.9, KP.2, KP.3, KQ.1, KV.2, XDK, XDP, XDQ.1
 
 Variants are colored (from blue to red) in order of the number (low to high) of convergent mutations they exhibit (ie. those in mutation plot above).
 
@@ -40,6 +40,14 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/variant_trajectories_France.svg" style="width: 2800px;">
 
+### Sichuan
+
+<img src="plots/sequence_volume_Sichuan.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Sichuan.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Sichuan.svg" style="width: 2800px;">
+
 ### Chile
 
 <img src="plots/sequence_volume_Chile.svg" style="width: 2800px;">
@@ -47,6 +55,14 @@ Averaging out the country-specific growth rate and intercept adjustments:
 <img src="plots/muller_trajectories_country_Chile.svg" style="width: 2800px;">
 
 <img src="plots/variant_trajectories_Chile.svg" style="width: 2800px;">
+
+### Heilongjiang
+
+<img src="plots/sequence_volume_Heilongjiang.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Heilongjiang.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Heilongjiang.svg" style="width: 2800px;">
 
 ### Hubei
 
@@ -56,14 +72,6 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/variant_trajectories_Hubei.svg" style="width: 2800px;">
 
-### Japan
-
-<img src="plots/sequence_volume_Japan.svg" style="width: 2800px;">
-
-<img src="plots/muller_trajectories_country_Japan.svg" style="width: 2800px;">
-
-<img src="plots/variant_trajectories_Japan.svg" style="width: 2800px;">
-
 ### Australia
 
 <img src="plots/sequence_volume_Australia.svg" style="width: 2800px;">
@@ -71,6 +79,14 @@ Averaging out the country-specific growth rate and intercept adjustments:
 <img src="plots/muller_trajectories_country_Australia.svg" style="width: 2800px;">
 
 <img src="plots/variant_trajectories_Australia.svg" style="width: 2800px;">
+
+### Japan
+
+<img src="plots/sequence_volume_Japan.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Japan.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Japan.svg" style="width: 2800px;">
 
 ### England
 
@@ -104,11 +120,11 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/variant_trajectories_Sweden.svg" style="width: 2800px;">
 
-SARS-CoV-2 sequence data from GISAID EpiCov (bulk .fasta download, 2024-04-27). We gratefully acknowledge all data contributors, i.e. the Authors and their Originating Laboratories responsible for obtaining the specimens, and their Submitting Laboratories that generated the genetic sequence and metadata and shared via the GISAID Initiative the data on which part of this research is based. Lineage assignments were made by Nextclade.
+SARS-CoV-2 sequence data from GISAID EpiCov (bulk .fasta download, 2024-05-02). We gratefully acknowledge all data contributors, i.e. the Authors and their Originating Laboratories responsible for obtaining the specimens, and their Submitting Laboratories that generated the genetic sequence and metadata and shared via the GISAID Initiative the data on which part of this research is based. Lineage assignments were made by Nextclade.
 
-Countries included in the model: Finland, Israel, Anhui, Singapore, Sweden, Netherlands, Ireland, Shanxi, Scotland, Taiwan, Liaoning, Henan, Wales, Gansu, Fujian, Russia, Germany, Spain, Sichuan, France, Chile, Hubei, Japan, Australia, England, Canada, USA
+Countries included in the model: Ukraine, Netherlands, Sweden, Shanxi, Liaoning, Fujian, Gansu, Scotland, Henan, Ireland, Germany, Wales, Taiwan, Spain, Russia, France, Sichuan, Chile, Heilongjiang, Hubei, Australia, Japan, England, Canada, USA
 
-SARS-CoV-2 lineages included in the model: BA.2, BA.2.86.1, BA.2.86.3, EG.5.1.1, GK.1.1.1, HK.20.1, HK.3, HK.3.1, HK.3.13, HK.3.2, HK.3.2.2, HV.1, HV.1.1, JC.5.1, JD.1.1, JD.1.1.1, JG.3, JG.3.2, JN.1, JN.1.1, JN.1.1.1, JN.1.1.5, JN.1.10, JN.1.11, JN.1.11.1, JN.1.13.1, JN.1.15, JN.1.16, JN.1.16.1, JN.1.17, JN.1.18, JN.1.18.1, JN.1.18.2, JN.1.19, JN.1.2, JN.1.20, JN.1.21, JN.1.22, JN.1.27, JN.1.28, JN.1.28.1, JN.1.29, JN.1.3, JN.1.30, JN.1.31, JN.1.32, JN.1.33, JN.1.34, JN.1.35, JN.1.37, JN.1.38, JN.1.39, JN.1.4, JN.1.4.1, JN.1.4.2, JN.1.4.3, JN.1.4.4, JN.1.4.5, JN.1.4.6, JN.1.4.7, JN.1.41, JN.1.42, JN.1.42.1, JN.1.43, JN.1.43.1, JN.1.45, JN.1.46, JN.1.5, JN.1.6, JN.1.6.1, JN.1.7, JN.1.7.1, JN.1.7.2, JN.1.8, JN.1.8.1, JN.1.8.3, JN.1.9, JN.1.9.1, JN.11, JN.14, JN.2, JN.2.5, JN.3, JN.4, JN.6, KP.1, KP.1.1, KP.1.1.1, KP.2, KP.3, KQ.1, KR.1, KS.1, KT.1.1, KU.2, KV.2, KW.1, KW.1.1, XDD, XDD.1, XDD.1.1, XDK, XDK.1, XDL, XDN, XDP, XDP.1, XDQ, XDQ.1, XDR, XDS
+SARS-CoV-2 lineages included in the model: BA.2, BA.2.86.1, BA.2.86.3, EG.5.1.1, HK.20.1, HK.3, HK.3.1, HK.3.13, HK.3.2, HV.1, HV.1.1, JC.5.1, JD.1.1, JD.1.1.1, JG.3, JG.3.2, JN.1, JN.1.1, JN.1.1.1, JN.1.1.5, JN.1.11, JN.1.11.1, JN.1.13.1, JN.1.15, JN.1.16, JN.1.16.1, JN.1.17, JN.1.18, JN.1.18.1, JN.1.18.2, JN.1.19, JN.1.2, JN.1.20, JN.1.21, JN.1.22, JN.1.27, JN.1.28, JN.1.28.1, JN.1.29, JN.1.3, JN.1.30, JN.1.30.1, JN.1.31, JN.1.32, JN.1.33, JN.1.34, JN.1.35, JN.1.37, JN.1.38, JN.1.39, JN.1.4, JN.1.4.1, JN.1.4.2, JN.1.4.3, JN.1.4.4, JN.1.4.5, JN.1.4.6, JN.1.4.7, JN.1.41, JN.1.42, JN.1.42.1, JN.1.43, JN.1.43.1, JN.1.45, JN.1.46, JN.1.5, JN.1.6, JN.1.6.1, JN.1.7, JN.1.7.1, JN.1.7.2, JN.1.8, JN.1.8.1, JN.1.8.3, JN.1.9, JN.1.9.1, JN.11, JN.14, JN.2, JN.2.5, JN.3, JN.6, KP.1, KP.1.1, KP.1.1.1, KP.2, KP.2.1, KP.3, KQ.1, KR.1, KS.1, KT.1.1, KU.2, KV.2, KW.1, KW.1.1, XDD, XDD.1, XDD.1.1, XDK, XDK.1, XDL, XDN, XDP, XDP.1, XDQ, XDQ.1, XDR, XDS
 
 ## HMC Diagnostics
 
