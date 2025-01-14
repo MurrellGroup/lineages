@@ -1,4 +1,4 @@
-# SARS-CoV-2 Lineage Competition (2024-12-12)
+# SARS-CoV-2 Lineage Competition (2025-01-13)
 
 Results from a model of global SARS-CoV-2 lineage competition
 
@@ -20,7 +20,7 @@ Inferred growth advantage mapped upon the Nextclade-curated phylogeny (pruned to
 
 For countries with more than 200 genomes deposited in the last 50 days, we plot the model trajectory estimates and forecasts. Forecasts for variants where the sampled genomes fall off prior to variant emergence are driven by global pooled estimates and should be treated with caution.
 
-Bayesian 95% Credible Intervals are shown for: BA.2, JN.1.11.1, KP.1.1.3, KP.2.2, KP.2.3, KP.3, KP.3.1, KP.3.1.1, KP.3.2.3, KP.3.3, KP.3.3.1, KP.3.3.2, KP.3.3.3, KS.1, LB.1, LB.1.3, LB.1.3.1, LB.1.7, LP.8.1, MC.1, MC.10, MC.10.1, MC.11, MC.13, MC.13.1, MC.16, MC.19, MC.2, MC.6, MC.9, MV.1, XDY, XEC, XEC.2, XEC.4, XEK, XEL
+Bayesian 95% Credible Intervals are shown for: BA.2, KP.1.1.3, KP.2.3, KP.3, KP.3.1, KP.3.1.1, KP.3.3, KP.3.3.1, LB.1.3.1, LF.7.1, LF.7.1.3, LP.8.1, MC.1, MC.10, MC.10.1, MC.11, MC.13, MC.16, MC.19, MC.2, MC.6, MC.8.1, MC.9, MV.1, XDY, XEC, XEC.2, XEC.4, XEK, XEL
 
 Variants are colored (from blue to red) in order of the number (low to high) of convergent mutations they exhibit (ie. those in mutation plot above).
 
@@ -31,14 +31,6 @@ Averaging out the country-specific growth rate and intercept adjustments:
 <img src="plots/variant_trajectories_model_avg.svg" style="width: 2800px;">
 
 <img src="plots/muller_trajectories_model_avg.svg" style="width: 2800px;">
-
-### Spain
-
-<img src="plots/sequence_volume_Spain.svg" style="width: 2800px;">
-
-<img src="plots/muller_trajectories_country_Spain.svg" style="width: 2800px;">
-
-<img src="plots/variant_trajectories_Spain.svg" style="width: 2800px;">
 
 ### Italy
 
@@ -56,13 +48,13 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/variant_trajectories_England.svg" style="width: 2800px;">
 
-### Japan
+### Netherlands
 
-<img src="plots/sequence_volume_Japan.svg" style="width: 2800px;">
+<img src="plots/sequence_volume_Netherlands.svg" style="width: 2800px;">
 
-<img src="plots/muller_trajectories_country_Japan.svg" style="width: 2800px;">
+<img src="plots/muller_trajectories_country_Netherlands.svg" style="width: 2800px;">
 
-<img src="plots/variant_trajectories_Japan.svg" style="width: 2800px;">
+<img src="plots/variant_trajectories_Netherlands.svg" style="width: 2800px;">
 
 ### Wales
 
@@ -72,13 +64,13 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/variant_trajectories_Wales.svg" style="width: 2800px;">
 
-### Scotland
+### Russia
 
-<img src="plots/sequence_volume_Scotland.svg" style="width: 2800px;">
+<img src="plots/sequence_volume_Russia.svg" style="width: 2800px;">
 
-<img src="plots/muller_trajectories_country_Scotland.svg" style="width: 2800px;">
+<img src="plots/muller_trajectories_country_Russia.svg" style="width: 2800px;">
 
-<img src="plots/variant_trajectories_Scotland.svg" style="width: 2800px;">
+<img src="plots/variant_trajectories_Russia.svg" style="width: 2800px;">
 
 ### Denmark
 
@@ -96,21 +88,21 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/variant_trajectories_Germany.svg" style="width: 2800px;">
 
-### France
+### Japan
 
-<img src="plots/sequence_volume_France.svg" style="width: 2800px;">
+<img src="plots/sequence_volume_Japan.svg" style="width: 2800px;">
 
-<img src="plots/muller_trajectories_country_France.svg" style="width: 2800px;">
+<img src="plots/muller_trajectories_country_Japan.svg" style="width: 2800px;">
 
-<img src="plots/variant_trajectories_France.svg" style="width: 2800px;">
+<img src="plots/variant_trajectories_Japan.svg" style="width: 2800px;">
 
-### Netherlands
+### Sweden
 
-<img src="plots/sequence_volume_Netherlands.svg" style="width: 2800px;">
+<img src="plots/sequence_volume_Sweden.svg" style="width: 2800px;">
 
-<img src="plots/muller_trajectories_country_Netherlands.svg" style="width: 2800px;">
+<img src="plots/muller_trajectories_country_Sweden.svg" style="width: 2800px;">
 
-<img src="plots/variant_trajectories_Netherlands.svg" style="width: 2800px;">
+<img src="plots/variant_trajectories_Sweden.svg" style="width: 2800px;">
 
 ### Australia
 
@@ -120,13 +112,13 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/variant_trajectories_Australia.svg" style="width: 2800px;">
 
-### Sweden
+### France
 
-<img src="plots/sequence_volume_Sweden.svg" style="width: 2800px;">
+<img src="plots/sequence_volume_France.svg" style="width: 2800px;">
 
-<img src="plots/muller_trajectories_country_Sweden.svg" style="width: 2800px;">
+<img src="plots/muller_trajectories_country_France.svg" style="width: 2800px;">
 
-<img src="plots/variant_trajectories_Sweden.svg" style="width: 2800px;">
+<img src="plots/variant_trajectories_France.svg" style="width: 2800px;">
 
 ### USA
 
@@ -144,11 +136,11 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/variant_trajectories_Canada.svg" style="width: 2800px;">
 
-SARS-CoV-2 sequence data from GISAID EpiCov (bulk .fasta download, 2024-12-12). We gratefully acknowledge all data contributors, i.e. the Authors and their Originating Laboratories responsible for obtaining the specimens, and their Submitting Laboratories that generated the genetic sequence and metadata and shared via the GISAID Initiative the data on which part of this research is based. Lineage assignments were made by Nextclade.
+SARS-CoV-2 sequence data from GISAID EpiCov (bulk .fasta download, 2025-01-13). We gratefully acknowledge all data contributors, i.e. the Authors and their Originating Laboratories responsible for obtaining the specimens, and their Submitting Laboratories that generated the genetic sequence and metadata and shared via the GISAID Initiative the data on which part of this research is based. Lineage assignments were made by Nextclade.
 
-Countries included in the model: Gansu, Norway, Portugal, Russia, Luxembourg, Thailand, Taiwan, Sichuan, Poland, Israel, Brazil, Slovenia, Ireland, Spain, Italy, England, Japan, Wales, Scotland, Denmark, Germany, France, Netherlands, Australia, Sweden, USA, Canada
+Countries included in the model: Chile, Liaoning, Luxembourg, Taiwan, Hubei, Finland, Shanxi, Heilongjiang, Israel, Slovenia, Ireland, Spain, Brazil, Scotland, Singapore, Italy, England, Netherlands, Wales, Russia, Denmark, Germany, Japan, Sweden, Australia, France, USA, Canada
 
-SARS-CoV-2 lineages included in the model: BA.2, JN.1.11.1, JN.1.16, JN.1.16.1, KP.1.1.1, KP.1.1.3, KP.2, KP.2.14, KP.2.15, KP.2.15.1, KP.2.19, KP.2.2, KP.2.2.1, KP.2.3, KP.2.3.12, KP.2.3.4, KP.2.3.6, KP.3, KP.3.1, KP.3.1.1, KP.3.1.4, KP.3.1.6, KP.3.1.7, KP.3.1.8, KP.3.2, KP.3.2.1, KP.3.2.3, KP.3.2.4, KP.3.2.5, KP.3.2.9, KP.3.3, KP.3.3.1, KP.3.3.2, KP.3.3.3, KP.3.3.4, KP.3.5, KS.1, KS.1.1, KS.1.1.2, LB.1, LB.1.2, LB.1.2.1, LB.1.2.2, LB.1.3, LB.1.3.1, LB.1.3.2, LB.1.4, LB.1.7, LF.7, LF.7.1, LF.7.1.3, LF.7.2.1, LF.7.3, LF.9, LP.1, LP.4, LP.5, LP.7, LP.8.1, LU.2.1.1, LW.1, LY.1, MA.1, MC.1, MC.1.1, MC.10, MC.10.1, MC.10.2, MC.11, MC.13, MC.13.1, MC.14, MC.15, MC.16, MC.17, MC.18, MC.19, MC.2, MC.2.1, MC.20, MC.21, MC.21.1, MC.22, MC.3, MC.4, MC.6, MC.8, MC.8.1, MC.9, MK.1, MT.1, MU.1, MV.1, NB.1, ND.1.1, NF.1, NL.2, NL.3, NL.4, NL.5, NP.1, XDV.1, XDY, XEC, XEC.1, XEC.2, XEC.3, XEC.4, XEC.5, XEC.6, XEF, XEJ, XEK, XEL
+SARS-CoV-2 lineages included in the model: BA.2, KP.1.1.3, KP.2.2, KP.2.3, KP.2.3.12, KP.2.3.4, KP.3, KP.3.1, KP.3.1.1, KP.3.2.3, KP.3.2.6, KP.3.2.9, KP.3.3, KP.3.3.1, KP.3.3.2, KP.3.3.3, KS.1, KS.1.1, KS.1.1.2, LB.1, LB.1.2.2, LB.1.3, LB.1.3.1, LB.1.4, LB.1.7, LF.7, LF.7.1, LF.7.1.2, LF.7.1.3, LF.7.2.1, LF.7.3, LP.1, LP.5, LP.8.1, MC.1, MC.1.1, MC.10, MC.10.1, MC.10.2, MC.11, MC.13, MC.13.1, MC.13.2, MC.14, MC.15, MC.16, MC.17, MC.19, MC.2, MC.2.1, MC.20, MC.21, MC.21.1, MC.22, MC.3, MC.6, MC.8, MC.8.1, MC.9, MK.1, MU.1, MV.1, NB.1, ND.1.1, NF.1, NL.2, NL.3, NL.4, NL.5, NP.1, XDV.1, XDY, XEC, XEC.1, XEC.2, XEC.3, XEC.4, XEC.5, XEC.6, XEF, XEK, XEL, XEM, XEN
 
 ## HMC Diagnostics
 
