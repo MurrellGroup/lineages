@@ -20,7 +20,7 @@ Inferred growth advantage mapped upon the Nextclade-curated phylogeny (pruned to
 
 For countries with more than 200 genomes deposited in the last 50 days, we plot the model trajectory estimates and forecasts. Forecasts for variants where the sampled genomes fall off prior to variant emergence are driven by global pooled estimates and should be treated with caution.
 
-Bayesian 95% Credible Intervals are shown for: JN.1, KP.1.1.3, KP.2.3, KP.3, KP.3.1, KP.3.1.1, KP.3.3, KP.3.3.1, LB.1.3.1, LF.7.1, LF.7.1.3, LP.8.1, MC.1, MC.1.3, MC.10, MC.10.1, MC.11, MC.13, MC.16, MC.19, MC.2, MC.24, MC.28, MC.6, MC.8.1, MC.9, MV.1, XDY, XEC, XEC.14, XEC.2, XEC.4, XEC.8, XEC.9, XEK
+Bayesian 95% Credible Intervals are shown for: JN.1, KP.1.1.3, KP.2.3, KP.3, KP.3.1, KP.3.1.1, KP.3.3, KP.3.3.1, LB.1.3.1, LF.7.1, LF.7.1.3, LP.8.1, LP.8.1.1, MC.1, MC.1.3, MC.10, MC.10.1, MC.11, MC.13, MC.16, MC.19, MC.2, MC.24, MC.28, MC.6, MC.8.1, MC.9, MV.1, XDY, XEC, XEC.14, XEC.2, XEC.4, XEC.8, XEC.9, XEK
 
 Variants are colored (from blue to red) in order of the number (low to high) of convergent mutations they exhibit (ie. those in mutation plot above).
 
