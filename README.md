@@ -20,7 +20,7 @@ Inferred growth advantage mapped upon the Nextclade-curated phylogeny (pruned to
 
 For countries with more than 200 genomes deposited in the last 50 days, we plot the model trajectory estimates and forecasts. Forecasts for variants where the sampled genomes fall off prior to variant emergence are driven by global pooled estimates and should be treated with caution.
 
-Bayesian 95% Credible Intervals are shown for: BA.2, KP.1.1.3, KP.2.3, KP.3, KP.3.1, KP.3.1.1, KP.3.3, KP.3.3.1, LB.1.3.1, LF.7.1, LF.7.1.3, LP.8.1, MC.1, MC.10, MC.10.1, MC.11, MC.13, MC.16, MC.19, MC.2, MC.6, MC.8.1, MC.9, MV.1, XDY, XEC, XEC.2, XEC.4, XEK, XEL
+Bayesian 95% Credible Intervals are shown for: JN.1, KP.1.1.3, KP.2.3, KP.3, KP.3.1, KP.3.1.1, KP.3.3, KP.3.3.1, LB.1.3.1, LF.7.1, LF.7.1.3, LP.8.1, MC.1, MC.1.3, MC.10, MC.10.1, MC.11, MC.13, MC.16, MC.19, MC.2, MC.24, MC.28, MC.6, MC.8.1, MC.9, MV.1, XDY, XEC, XEC.14, XEC.2, XEC.4, XEC.8, XEC.9, XEK
 
 Variants are colored (from blue to red) in order of the number (low to high) of convergent mutations they exhibit (ie. those in mutation plot above).
 
@@ -140,7 +140,7 @@ SARS-CoV-2 sequence data from GISAID EpiCov (bulk .fasta download, 2025-01-13). 
 
 Countries included in the model: Chile, Liaoning, Luxembourg, Taiwan, Hubei, Finland, Shanxi, Heilongjiang, Israel, Slovenia, Ireland, Spain, Brazil, Scotland, Singapore, Italy, England, Netherlands, Wales, Russia, Denmark, Germany, Japan, Sweden, Australia, France, USA, Canada
 
-SARS-CoV-2 lineages included in the model: BA.2, KP.1.1.3, KP.2.2, KP.2.3, KP.2.3.12, KP.2.3.4, KP.3, KP.3.1, KP.3.1.1, KP.3.2.3, KP.3.2.6, KP.3.2.9, KP.3.3, KP.3.3.1, KP.3.3.2, KP.3.3.3, KS.1, KS.1.1, KS.1.1.2, LB.1, LB.1.2.2, LB.1.3, LB.1.3.1, LB.1.4, LB.1.7, LF.7, LF.7.1, LF.7.1.2, LF.7.1.3, LF.7.2.1, LF.7.3, LP.1, LP.5, LP.8.1, MC.1, MC.1.1, MC.10, MC.10.1, MC.10.2, MC.11, MC.13, MC.13.1, MC.13.2, MC.14, MC.15, MC.16, MC.17, MC.19, MC.2, MC.2.1, MC.20, MC.21, MC.21.1, MC.22, MC.3, MC.6, MC.8, MC.8.1, MC.9, MK.1, MU.1, MV.1, NB.1, ND.1.1, NF.1, NL.2, NL.3, NL.4, NL.5, NP.1, XDV.1, XDY, XEC, XEC.1, XEC.2, XEC.3, XEC.4, XEC.5, XEC.6, XEF, XEK, XEL, XEM, XEN
+SARS-CoV-2 lineages included in the model: BA.2, JN.1, KP.1.1.3, KP.2.2, KP.2.3, KP.2.3.12, KP.2.3.4, KP.3, KP.3.1, KP.3.1.1, KP.3.2.3, KP.3.2.6, KP.3.3, KP.3.3.1, KP.3.3.2, KP.3.3.3, KP.3.3.5, KS.1, KS.1.1, KS.1.1.2, LB.1, LB.1.2.2, LB.1.3, LB.1.3.1, LB.1.4, LB.1.7, LF.7, LF.7.1, LF.7.1.3, LF.7.2.1, LF.7.3, LP.1, LP.5, LP.8.1, LP.8.1.1, MC.1, MC.1.1, MC.1.2, MC.1.3, MC.1.3.1, MC.10, MC.10.1, MC.10.2, MC.11, MC.13, MC.13.1, MC.13.2, MC.14, MC.15, MC.16, MC.17, MC.19, MC.2, MC.2.1, MC.20, MC.21, MC.21.1, MC.22, MC.23, MC.24, MC.25, MC.26, MC.26.1, MC.27, MC.28, MC.3, MC.6, MC.8.1, MC.9, MK.1, MV.1, MV.1.1, NB.1, NF.1, NL.2, NL.3, NL.4, NL.5, NP.1, NV.1, XDV.1, XDY, XEC, XEC.1, XEC.11, XEC.12, XEC.13, XEC.14, XEC.15, XEC.16, XEC.2, XEC.2.1, XEC.2.2, XEC.3, XEC.4, XEC.5, XEC.6, XEC.8, XEC.9, XEF, XEK, XEK.1, XEK.1.1, XEK.2, XEK.4, XEL, XEM, XEN, XEQ
 
 ## HMC Diagnostics
 
