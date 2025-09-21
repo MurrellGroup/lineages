@@ -1,8 +1,8 @@
-# SARS-CoV-2 Lineage Competition (2025-05-18)
+# SARS-CoV-2 Lineage Competition (2025-09-21)
 
 Results from a model of global SARS-CoV-2 lineage competition
 
-Estimates of multiplicative growth advantage (per week) for lineages are provided, both relative to the basal BA.2, and to the recently-dominant KP.3.1.1.
+Estimates of multiplicative growth advantage (per week) for lineages are provided, both relative to the basal BA.2, and to the recently-dominant LP.8.1.1.
 
 ## Advantage Estimates
 
@@ -20,7 +20,7 @@ Inferred growth advantage mapped upon the Nextclade-curated phylogeny (pruned to
 
 For countries with more than 200 genomes deposited in the last 50 days, we plot the model trajectory estimates and forecasts. Forecasts for variants where the sampled genomes fall off prior to variant emergence are driven by global pooled estimates and should be treated with caution.
 
-Bayesian 95% Credible Intervals are shown for: BA.2, KP.3.1.1, KP.3.3.5, LB.1.3.1, LF.7.7.1, LF.7.7.2, LP.8.1, LP.8.1.1, LP.8.1.4, MC.1, MC.10.1, MC.21.1, NB.1.8.1, PC.2, XEC, XEC.2, XEC.25.1, XEC.4, XEC.4.1, XEC.8, XEK, XFG, XFJ
+Bayesian 95% Credible Intervals are shown for: BA.2, LP.8.1, LP.8.1.1, NB.1.8.1, PE.1.4, PF.2, PQ.1, PQ.17, PQ.2, XFG, XFG.14.1, XFG.2, XFG.3, XFG.3.1, XFG.3.15, XFG.3.4, XFG.3.4.1, XFG.3.4.2, XFG.3.4.3, XFG.4.1, XFG.5.1, XFG.5.2, XFG.6, XFG.8, XFG.9.1, XFG.9.3, XFV
 
 Variants are colored (from blue to red) in order of the number (low to high) of convergent mutations they exhibit (ie. those in mutation plot above).
 
@@ -32,6 +32,54 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/muller_trajectories_model_avg.svg" style="width: 2800px;">
 
+### Italy
+
+<img src="plots/sequence_volume_Italy.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Italy.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Italy.svg" style="width: 2800px;">
+
+### Germany
+
+<img src="plots/sequence_volume_Germany.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Germany.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Germany.svg" style="width: 2800px;">
+
+### Japan
+
+<img src="plots/sequence_volume_Japan.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Japan.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Japan.svg" style="width: 2800px;">
+
+### Brazil
+
+<img src="plots/sequence_volume_Brazil.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Brazil.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Brazil.svg" style="width: 2800px;">
+
+### Wales
+
+<img src="plots/sequence_volume_Wales.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_Wales.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_Wales.svg" style="width: 2800px;">
+
+### England
+
+<img src="plots/sequence_volume_England.svg" style="width: 2800px;">
+
+<img src="plots/muller_trajectories_country_England.svg" style="width: 2800px;">
+
+<img src="plots/variant_trajectories_England.svg" style="width: 2800px;">
+
 ### France
 
 <img src="plots/sequence_volume_France.svg" style="width: 2800px;">
@@ -40,21 +88,21 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/variant_trajectories_France.svg" style="width: 2800px;">
 
-### Spain
+### Scotland
 
-<img src="plots/sequence_volume_Spain.svg" style="width: 2800px;">
+<img src="plots/sequence_volume_Scotland.svg" style="width: 2800px;">
 
-<img src="plots/muller_trajectories_country_Spain.svg" style="width: 2800px;">
+<img src="plots/muller_trajectories_country_Scotland.svg" style="width: 2800px;">
 
-<img src="plots/variant_trajectories_Spain.svg" style="width: 2800px;">
+<img src="plots/variant_trajectories_Scotland.svg" style="width: 2800px;">
 
-### Singapore
+### Australia
 
-<img src="plots/sequence_volume_Singapore.svg" style="width: 2800px;">
+<img src="plots/sequence_volume_Australia.svg" style="width: 2800px;">
 
-<img src="plots/muller_trajectories_country_Singapore.svg" style="width: 2800px;">
+<img src="plots/muller_trajectories_country_Australia.svg" style="width: 2800px;">
 
-<img src="plots/variant_trajectories_Singapore.svg" style="width: 2800px;">
+<img src="plots/variant_trajectories_Australia.svg" style="width: 2800px;">
 
 ### Canada
 
@@ -64,13 +112,13 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/variant_trajectories_Canada.svg" style="width: 2800px;">
 
-### Australia
+### Spain
 
-<img src="plots/sequence_volume_Australia.svg" style="width: 2800px;">
+<img src="plots/sequence_volume_Spain.svg" style="width: 2800px;">
 
-<img src="plots/muller_trajectories_country_Australia.svg" style="width: 2800px;">
+<img src="plots/muller_trajectories_country_Spain.svg" style="width: 2800px;">
 
-<img src="plots/variant_trajectories_Australia.svg" style="width: 2800px;">
+<img src="plots/variant_trajectories_Spain.svg" style="width: 2800px;">
 
 ### USA
 
@@ -88,11 +136,11 @@ Averaging out the country-specific growth rate and intercept adjustments:
 
 <img src="plots/variant_trajectories_Sweden.svg" style="width: 2800px;">
 
-SARS-CoV-2 sequence data from GISAID EpiCov (bulk .fasta download, 2025-05-18). We gratefully acknowledge all data contributors, i.e. the Authors and their Originating Laboratories responsible for obtaining the specimens, and their Submitting Laboratories that generated the genetic sequence and metadata and shared via the GISAID Initiative the data on which part of this research is based. Lineage assignments were made by Nextclade.
+SARS-CoV-2 sequence data from GISAID EpiCov (bulk .fasta download, 2025-09-21). We gratefully acknowledge all data contributors, i.e. the Authors and their Originating Laboratories responsible for obtaining the specimens, and their Submitting Laboratories that generated the genetic sequence and metadata and shared via the GISAID Initiative the data on which part of this research is based. Lineage assignments were made by Nextclade.
 
-Countries included in the model: Denmark, Chile, Taiwan, Ireland, Germany, Netherlands, Scotland, England, Wales, France, Spain, Singapore, Canada, Australia, USA, Sweden
+Countries included in the model: Hubei, Romania, Taiwan, Sweden, Ukraine, Denmark, Singapore, Ireland, Netherlands, Italy, Germany, Japan, Brazil, Wales, England, France, Scotland, Australia, Canada, Spain, USA
 
-SARS-CoV-2 lineages included in the model: BA.2, KP.3.1.1, KP.3.3.2, KP.3.3.5, LB.1.3.1, LF.7.1, LF.7.6.2, LF.7.7.1, LF.7.7.2, LF.7.9, LP.8.1, LP.8.1.1, LP.8.1.2, LP.8.1.3, LP.8.1.4, LP.8.1.5, LP.8.1.6, LP.8.1.8, MC.1, MC.1.1, MC.1.2, MC.10.1, MC.10.1.1, MC.10.1.6, MC.10.1.7, MC.10.2, MC.10.2.1, MC.13, MC.13.2, MC.21.1, MC.28.1.1, MC.31, NB.1.8.1, NL.5.2, NL.6, NP.1, NW.1, NY.1, NY.10, NY.12, NY.2, NY.3, NY.6, NY.7, NY.9, PA.1, PC.2, PC.3, PC.4, PE.1, PG.1, XEC, XEC.1, XEC.11.1, XEC.14, XEC.18, XEC.2, XEC.2.1, XEC.2.2, XEC.2.2.1, XEC.25.1, XEC.29, XEC.31, XEC.32, XEC.4, XEC.4.1, XEC.5, XEC.8, XEC.9, XEK, XEK.1, XEQ, XFC, XFG, XFJ
+SARS-CoV-2 lineages included in the model: BA.2, JN.1.16.5, LP.8.1, LP.8.1.1, LP.8.1.4, NB.1.8.1, NW.1.2, NW.1.2.1, NW.1.2.2, NY.13, NY.15, NY.15.1, NY.16, NY.18, NY.20, NY.24, NY.3, NY.3.3, NY.7.1, NY.9, PD.1, PE.1.4, PF.2, PG.3.1, PQ.1, PQ.1.2, PQ.1.5, PQ.10, PQ.10.1, PQ.11, PQ.12, PQ.13, PQ.14, PQ.17, PQ.17.1, PQ.17.2, PQ.2, PQ.2.1, PQ.2.4, PQ.2.5, PQ.3, PQ.31, PQ.4, PQ.5, PQ.6, PQ.7, PQ.8, PQ.8.1, PY.1.1.1, QF.1, QK.1, XFC, XFC.1, XFC.1.1, XFC.3, XFG, XFG.1, XFG.10, XFG.10.1, XFG.14, XFG.14.1, XFG.16, XFG.2, XFG.2.2, XFG.21, XFG.22, XFG.23.1, XFG.26, XFG.28, XFG.29, XFG.3, XFG.3.1, XFG.3.1.1, XFG.3.10, XFG.3.12.1, XFG.3.13, XFG.3.15, XFG.3.16, XFG.3.17, XFG.3.4, XFG.3.4.1, XFG.3.4.2, XFG.3.4.3, XFG.3.6, XFG.3.7, XFG.3.8, XFG.3.9, XFG.30, XFG.31, XFG.4, XFG.4.1, XFG.4.2, XFG.5, XFG.5.1, XFG.5.2, XFG.6, XFG.7, XFG.8, XFG.9, XFG.9.1, XFG.9.3, XFG.9.4, XFJ, XFJ.1, XFJ.3, XFN.1, XFV
 
 ## HMC Diagnostics
 
@@ -101,6 +149,18 @@ We show Effective Sample Size (ESS) and plot chains for the global lineage advan
 <img src="plots/ESS_growth_rates.svg" style="width: 2800px;">
 
 <img src="plots/growth_rate_chains.svg" style="width: 2800px;">
+
+<img src="plots/ESS_props_England_time1.svg" style="width: 2800px;">
+
+<img src="plots/Chain_props_England_time1.png" style="width: 2800px;">
+
+<img src="plots/ESS_props_England_time50.svg" style="width: 2800px;">
+
+<img src="plots/Chain_props_England_time50.png" style="width: 2800px;">
+
+<img src="plots/ESS_props_England_time100.svg" style="width: 2800px;">
+
+<img src="plots/Chain_props_England_time100.png" style="width: 2800px;">
 
 <img src="plots/ESS_props_USA_time1.svg" style="width: 2800px;">
 
